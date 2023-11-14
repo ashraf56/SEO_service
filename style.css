@@ -1,0 +1,33 @@
+
+.btn-g{
+    letter-spacing: 2px;
+    background-color: yellow;
+    color: #5a189a;
+}
+.btn-g:hover{
+    background-color: #5a189a;
+    color: antiquewhite;
+}
+
+.sw{
+background-color: #5a189a;
+margin: auto;
+z-index: 1;
+position: relative;
+
+}
+
+.sw:after{
+
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    left: 0;
+    right: 0;
+    top: 35%;
+    bottom: 0;
+    content: "";
+    z-index: -1;
+    opacity: 80%;
+   background-color: yellow;
+}
